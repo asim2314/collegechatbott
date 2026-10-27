@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run College Chatbox",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"--prefix",
+				"C:\\Users\\Dell\\Downloads\\college-chatbox-main\\college-chatbox-main",
+				"run",
+				"dev",
+				"--",
+				"--host",
+				"127.0.0.1"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
